@@ -67,9 +67,5 @@
     "postcss-import": "^16.1.0",
     "postcss-nesting": "^13.0.1"
   },
-  "packageManager": "pnpm@9.14.4",
-  "scripts": {
-  "build": "astro build",
-  "deploy": "npm run build && git add dist/ && git commit -m 'Deploy to GitHub Pages' && git subtree push --prefix dist origin gh-pages"
-}
+  "packageManager": "pnpm@9.14.4"
 }
