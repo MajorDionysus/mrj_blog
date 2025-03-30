@@ -4,7 +4,7 @@ published: 2025-03-09
 updated: 2025-03-13
 description: "A memorable trip and a great value ticket."
 image: "./cover.jpg"
-tags: ["Snooker", "Hong Kong"]
+tags: ["Snooker", "HongKong"]
 category: Travel
 draft: false
 ---
@@ -12,16 +12,30 @@ draft: false
 # 2025 World Grand Prix
 ## Snooker
 
-**Snooker** is a highly accurate game of billiards that originated in England in the 19th century.  
-The game is played on a standard snooker table, using a white cue ball to hit the red and coloured balls, scoring points according to specific rules and trying to get the ball into the pocket.  
-
-Snooker emphasises skill, tactics, and psychology, requiring precise positioning and calculation to control the pace of the game.  
-The **World Snooker Championship**, the **UK Championship**, and **The Masters** are the three most prestigious tournaments in snooker.
+**斯诺克**是一种高度精确的台球游戏，起源于 19 世纪的英国。比赛在标准的斯诺克球台上进行，使用白色母球交替击打红色和彩色球，按照特定规则得分，并努力将球送入袋中。斯诺克强调技巧、战术和心理，需要精确的定位和计算来控制比赛节奏。
+**世界斯诺克锦标赛**、**英国斯诺克锦标赛**和**大师赛**是斯诺克界最负盛名的三大赛事。
 
 ## Grand Prix
 
-The **Grand Prix** is a former ranking snooker tournament, first established in 1984 and formerly known as the **LG Cup**, among other names.  
-The Grand Prix holds a significant place in the history of snooker, having been an important stop on the professional tour and attracting many of the best players in the game.  
+大奖赛是斯诺克锦标赛的前身，最初成立于1984年，以前被称为LG杯，以及其他名称。大奖赛在斯诺克历史上占有重要地位，是职业巡回赛的重要一站，吸引了许多最好的球员。
+大奖赛采用独特的随机抽奖系统，而不是其他排名赛事中使用的严格播种系统，作为斯诺克巡回赛的一部分，于2010年重组为世界公开赛，延续了其高度竞争的性质。
 
-With a unique system of **random draws** rather than the strict seeding system used in other ranking events, the Grand Prix was **reorganised as the World Open in 2010** as part of the Snooker Tour, continuing its highly competitive nature.
+# 启德夜未眠：一场10-0背后的斯诺克狂想  
 
+三月的香港还带着料峭春寒，启德体育园穹顶下却翻滚着灼热的声浪。当罗伯逊的母球精准撞击最后一颗黑球入袋，电子记分牌定格在10-0的瞬间，我手中的冻柠茶在塑料杯壁上洇出的水痕，突然就成了这场梦境的现实锚点——原来真的有人能在顶级赛事的决赛舞台，上演如此极致的统治力。  
+### 一、当「零封」成为一场精密手术  
+
+作为见证者，我必须承认赛前从未想过会目睹历史。宾汉姆前一日淘汰特鲁姆普的半决赛堪称经典，那杆决胜局的长台准度让全场倒吸凉气，而罗伯逊半决赛逆转墨菲时的三杆破百，已预示着这场决赛将是「火炮」与「鲨鱼」的巅峰对轰。但当第一阶段连丢八局的宾汉姆在休息区擦拭球杆时，他眼中的困惑与罗伯逊走向球员通道时的冷静形成刺眼对比——前者像被拆解的精密仪器，后者则是持续输出的工业母机。  
+
+第二阶段第九局堪称转折的缩影：宾汉姆难得取得58-27的领先，粉球却在中袋口前滑出诡异弧线。罗伯逊的反击从架杆薄切红球开始，细腻的低杆缩两库叫位，精准度让解说员忍不住轻呼「这是教科书般的斯诺克走位」。当他在第十局用69分锁定胜局时，场边一位白发香港球迷突然用粤语喊出「罗伯逊，你条友叻到无谱！」，这句带着颤音的赞叹，瞬间让紧张的赛事氛围染上了人间烟火气。  
+### 二、启德场馆的「第五种视角」  
+
+坐在场馆20排的视野出乎意料地好，启德体艺馆的阶梯式设计让每个座位都像被赋予了上帝视角。午后的阳光透过西侧玻璃幕墙斜切进场地，在罗伯逊的球杆上投下一道金边，这种自然光与专业无影灯的奇妙融合，让台面上滚动的彩球仿佛被镀上了一层琥珀色滤镜。中场休息时混在人流中买鸡蛋仔，意外听到两位穿西装的本地大叔讨论：「宾汉姆昨日打特鲁姆普到凌晨两点，体能怕是顶不住咯。」原来在职业赛事的残酷之外，普通人对胜负的解读永远带着温度。  
+  
+### 三、维港夜色里的赛事余韵  
+
+散场时的维港正飘着细雾，天星小轮的灯光在海面划出银线，手机里的媒体平台推送着赛事精彩击球片段的集锦。想起下午观赛时，邻座的香港父子猜测选手的战术和回球路线；也想起在旺角茶餐厅吃夜宵时，老板听说我们刚看完比赛，特意在冻奶茶上多放了颗方糖：「罗伯逊赢波，抵饮多杯！」这种全民参与的赛事氛围，让启德的胜利不仅属于赛场，更属于整座城市。  
+
+回到深圳的地铁上，赛事海报的反光映在车窗玻璃上，与飞驰而过的隧道灯光交织成幻。罗伯逊的25个排名赛冠军、宾汉姆的低迷状态、甚至肖国栋止步八强的背影，在记忆里渐渐模糊成一个更清晰的感受——斯诺克的魅力从不在冷冰冰的比分，而在那些让你屏住呼吸的长台准度，让你热血上涌的逆转时刻，以及散场后与陌生人分享的那句「今日真系睇到值回票价」。  
+
+启德体育园的穹顶终将熄灭灯光，但那个被10-0点燃的夜晚，会永远停留在每个见证者的记忆里。就像罗伯逊在采访中说的：「香港的球迷让我想起家乡的海滩，永远充满热情与活力。」而对我来说，这场赛事早已超越胜负，成为链接粤港澳、甚至更广阔世界的一枚斯诺克形纽扣——当白球撞击红球的清脆声响在耳畔回响，所有关于热爱、专注与奇迹的故事，都在这颗小球的滚动中，找到了最动人的注脚。
