@@ -3,7 +3,7 @@ title: "2025 Prix: An unprecedented 10 consecutive whips"
 published: 2025-03-09
 updated: 2025-03-13
 description: "A memorable trip and a great value ticket."
-image: "./cover.jpg"
+image: "https://img.mrj.today/images/blogs/2025GrandPrix/champion.png"
 tags: ["Snooker", "HongKong"]
 category: Travel
 draft: false
@@ -14,7 +14,7 @@ draft: false
 
 **斯诺克**是一种高度精确的台球游戏，起源于 19 世纪的英国。比赛在标准的斯诺克球台上进行，使用白色母球交替击打红色和彩色球，按照特定规则得分，并努力将球送入袋中。斯诺克强调技巧、战术和心理，需要精确的定位和计算来控制比赛节奏。
 **世界斯诺克锦标赛**、**英国斯诺克锦标赛**和**大师赛**是斯诺克界最负盛名的三大赛事。
-![](https://www.notion.so/World-Grand-Prix-2025-1befa376bdc581b9a050ee3b16a9c9cc?pvs=4)
+![](https://img.mrj.today/images/blogs/2025GrandPrix/Vs.png)
 ## Grand Prix
 
 大奖赛是斯诺克锦标赛的前身，最初成立于1984年，以前被称为LG杯，以及其他名称。大奖赛在斯诺克历史上占有重要地位，是职业巡回赛的重要一站，吸引了许多最好的球员。
