@@ -3,7 +3,7 @@ title: "2025 Prix: An unprecedented 10 consecutive whips"
 published: 2025-03-09
 updated: 2025-03-13
 description: "A memorable trip and a great value ticket."
-image: "./cover.jpg"
+image: "https://www.notion.so/World-Grand-Prix-2025-1befa376bdc581b9a050ee3b16a9c9cc?pvs=4"
 tags: ["Snooker", "HongKong"]
 category: Travel
 draft: false
