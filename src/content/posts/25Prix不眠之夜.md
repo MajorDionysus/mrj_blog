@@ -1,26 +1,32 @@
 ---
-title: "2025 Prix"
+title: 2025Prix不眠之夜
 published: 2025-03-09
-updated: 2025-03-18
-description: "A memorable trip and a great value ticket."
-image: "https://img.mrj.today/images/blogs/2025GrandPrix/champion.png"
-tags: ["Snooker", "HongKong"]
+updated: 2025-03-13
+description: 前所未料的对局，难以置信的比分，启德体育馆上演了一场难忘的斯诺克赛事。
+image: https://img.mrj.today/images/blogs/2025GrandPrix/champion.png
+tags:
+  - Snooker
+  - HongKong
 category: Travel
 draft: false
 ---
-
 # 2025 World Grand Prix
 ## Snooker
 
 **斯诺克**是一种高度精确的台球游戏，起源于 19 世纪的英国。比赛在标准的斯诺克球台上进行，使用白色母球交替击打红色和彩色球，按照特定规则得分，并努力将球送入袋中。斯诺克强调技巧、战术和心理，需要精确的定位和计算来控制比赛节奏。
 **世界斯诺克锦标赛**、**英国斯诺克锦标赛**和**大师赛**是斯诺克界最负盛名的三大赛事。
-![](https://img.mrj.today/images/blogs/2025GrandPrix/Vs.png)
+
 ## Grand Prix
 
 大奖赛是斯诺克锦标赛的前身，最初成立于1984年，以前被称为LG杯，以及其他名称。大奖赛在斯诺克历史上占有重要地位，是职业巡回赛的重要一站，吸引了许多最好的球员。
 大奖赛采用独特的随机抽奖系统，而不是其他排名赛事中使用的严格播种系统，作为斯诺克巡回赛的一部分，于2010年重组为世界公开赛，延续了其高度竞争的性质。
 
 # 启德夜未眠：一场10-0背后的斯诺克狂想  
+
+
+
+
+![](https://img.mrj.today/images/blogs/2025GrandPrix/Vs.png)
 
 三月的香港还带着料峭春寒，启德体育园穹顶下却翻滚着灼热的声浪。当罗伯逊的母球精准撞击最后一颗黑球入袋，电子记分牌定格在10-0的瞬间，我手中的冻柠茶在塑料杯壁上洇出的水痕，突然就成了这场梦境的现实锚点——原来真的有人能在顶级赛事的决赛舞台，上演如此极致的统治力。  
 ### 一、当「零封」成为一场精密手术  
