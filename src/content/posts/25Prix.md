@@ -1,7 +1,7 @@
 ---
-title: "2025 Prix: An unprecedented 10 consecutive whips"
+title: "2025 Prix"
 published: 2025-03-09
-updated: 2025-03-13
+updated: 2025-03-18
 description: "A memorable trip and a great value ticket."
 image: "https://img.mrj.today/images/blogs/2025GrandPrix/champion.png"
 tags: ["Snooker", "HongKong"]
