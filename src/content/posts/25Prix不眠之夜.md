@@ -1,5 +1,5 @@
 ---
-title: 2025Prix不眠之夜
+title: "2025Prix不眠之夜"
 published: 2025-03-09
 updated: 2025-03-13
 description: 前所未料的对局，难以置信的比分，启德体育馆上演了一场难忘的斯诺克赛事。
