@@ -7,7 +7,7 @@ description: 2025 年 3 月 9 日，香港启德体育园，尼尔・罗伯逊�
 image: https://img.mrj.today/images/blogs/2025GrandPrix/champion.png
 tags:
   - Snooker
-  - HongKong
+  - 香港
 category: 旅行
 draft: false
 ---
