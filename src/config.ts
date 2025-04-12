@@ -16,7 +16,7 @@ export const siteConfig: SiteConfig = {
   },
   banner: {
     enable: true,
-    src: 'https://media.giphy.com/media/fC6BAcnLFF2o/giphy.gif?cid=790b7611hv506gtks5jubqn6l83lmo77pyhtwsxb6iq4c28d&ep=v1_gifs_search&rid=giphy.gif&ct=g',   // Relative to the /src directory. Relative to the /public directory if it starts with '/'
+    src: "https://img.mrj.today/images/cover/banner.jpg",
     position: 'center',      // Equivalent to object-position, only supports 'top', 'center', 'bottom'. 'center' by default
     credit: {
       enable: false,         // Display the credit text of the banner image
