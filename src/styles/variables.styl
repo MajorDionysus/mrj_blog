@@ -5,29 +5,50 @@ white(a)
 black(a)
   rgba(0, 0, 0, a)
 
-rainbow-light = linear-gradient(to right, oklch(0.80 0.10 0), oklch(0.80 0.10 30), oklch(0.80 0.10 60), oklch(0.80 0.10 90), oklch(0.80 0.10 120), oklch(0.80 0.10 150), oklch(0.80 0.10 180), oklch(0.80 0.10 210), oklch(0.80 0.10 240), oklch(0.80 0.10 270), oklch(0.80 0.10 300), oklch(0.80 0.10 330), oklch(0.80 0.10 360))
-rainbow-dark = linear-gradient(to right, oklch(0.70 0.10 0), oklch(0.70 0.10 30), oklch(0.70 0.10 60), oklch(0.70 0.10 90), oklch(0.70 0.10 120), oklch(0.70 0.10 150), oklch(0.70 0.10 180), oklch(0.70 0.10 210), oklch(0.70 0.10 240), oklch(0.70 0.10 270), oklch(0.70 0.10 300), oklch(0.70 0.10 330), oklch(0.70 0.10 360))
+rainbow-light = linear-gradient(to right, 
+  rgba(255,185,185,0.92),    /* 柔和水红 */
+  rgba(255,215,190,0.92),    /* 浅珊瑚 */
+  rgba(255,240,200,0.92),    /* 香槟金 */
+  rgba(220,240,200,0.92),    /* 薄荷绿 */
+  rgba(185,240,210,0.92),    /* 碧波绿 */
+  rgba(185,230,230,0.92),    /* 浅湖蓝 */
+  rgba(185,205,255,0.92),    /* 淡牛仔 */
+  rgba(205,190,255,0.92),    /* 薰衣草 */
+  rgba(240,190,240,0.92),    /* 粉紫 */
+  rgba(255,190,205,0.92),    /* 樱花粉 */
+  rgba(255,185,185,0.92))    /* 循环 */
+
+rainbow-dark = linear-gradient(to right, 
+  rgba(210,80,80,0.85),      /* 宝石红 */
+  rgba(210,120,90,0.85),     /* 陶土橙 */
+  rgba(210,160,100,0.85),    /* 琥珀金 */
+  rgba(130,160,100,0.85),    /* 橄榄绿 */
+  rgba(100,160,130,0.85),    /* 翡翠绿 */
+  rgba(100,140,160,0.85),    /* 孔雀蓝 */
+  rgba(100,120,210,0.85),    /* 午夜蓝 */
+  rgba(140,110,210,0.85),    /* 紫水晶 */
+  rgba(210,110,210,0.85),    /* 兰花紫 */
+  rgba(210,110,140,0.85),    /* 莓果红 */
+  rgba(210,80,80,0.85))      /* 循环 */
 
 :root
   --radius-large 1rem
   --content-delay 150ms
 
 body {
-    font-family: 'LXGW WenKai', 'Helvetica Neue', Helvetica, Arial, sans-serif; /* 使用思源黑体作为正文字体 */
+    font-family: 'LXGW WenKai', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     line-height: 1.6;
-    font-weight: 360; /* 常规字重 */
-    color: #333; /* 现代感颜色 */
+    font-weight: 360;
+    color: #333;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'KaiTi', serif; /* 使用思源宋体作为标题字体 */
-    font-weight: 700; /* 标题加粗 */
-    color: #222; /* 标题颜色 */
-    line-height: 1.6; /* 调整标题行高 */
+    font-family: 'KaiTi', serif;
+    font-weight: 700;
+    color: #222;
+    line-height: 1.6;
 }
 
-
-/* An util to define variables that vary with light and dark mode */
 define(vars)
   :root
     for key, value in vars
@@ -38,75 +59,77 @@ define(vars)
         {key}: value[1]
 
 define({
-  --primary: oklch(0.65 0.08 var(--hue)) oklch(0.70 0.08 var(--hue))
-  --page-bg: oklch(0.99 0.02 var(--hue)) oklch(0.01 0.08 var(--hue))
-  --card-bg: oklch(0.91 0.02 var(--hue)) oklch(0.24 0.005 var(--hue))
+--primary: rgba(96, 128, 144, 0.95) rgba(72, 102, 118, 0.95)         // 靛青偏灰，近似“螺子黛”
 
-  --btn-content: oklch(0.45 0.08 var(--hue)) oklch(0.65 0.08 var(--hue))
+--page-bg: rgba(232, 230, 224, 1) rgba(32, 30, 28, 1)                 // 浅色为温柔灰米（缟羽），深色为墨炭色
 
-  --btn-regular-bg: oklch(0.95 0.025 var(--hue)) oklch(0.28 0.035 var(--hue))
-  --btn-regular-bg-hover: oklch(0.9 0.05 var(--hue)) oklch(0.38 0.04 var(--hue))
-  --btn-regular-bg-active: oklch(0.85 0.08 var(--hue)) oklch(0.43 0.045 var(--hue))
+--card-bg: rgba(250, 248, 245, 0.88) rgba(42, 40, 38, 0.88)           // 仿宣纸纤维感，略偏暖
 
-  --btn-plain-bg-hover: oklch(0.95 0.025 var(--hue)) oklch(0.30 0.035 var(--hue))
-  --btn-plain-bg-active: oklch(0.98 0.01 var(--hue)) oklch(0.27 0.025 var(--hue))
 
-  --btn-card-bg-hover: oklch(0.98 0.005 var(--hue)) oklch(0.3 0.03 var(--hue))
-  --btn-card-bg-active: oklch(0.9 0.03 var(--hue)) oklch(0.35 0.035 var(--hue))
+  --btn-content: rgba(70, 110, 145, 1) rgba(145, 185, 220, 1)
+
+  --btn-regular-bg: rgba(245, 245, 240, 1) rgba(44, 44, 42, 1)
+  --btn-regular-bg-hover: rgba(237, 237, 232, 1) rgba(64, 64, 62, 1)
+  --btn-regular-bg-active: rgba(226, 226, 221, 1) rgba(84, 84, 82, 1)
+
+  --btn-plain-bg-hover: rgba(242, 242, 235, 1) rgba(54, 54, 52, 1)
+  --btn-plain-bg-active: rgba(250, 250, 244, 0.96) rgba(49, 49, 47, 1)
+
+  --btn-card-bg-hover: rgba(255, 255, 252, 0.97) rgba(59, 59, 57, 1)
+  --btn-card-bg-active: rgba(230, 230, 225, 1) rgba(74, 74, 72, 1)
 
   --enter-btn-bg: var(--btn-regular-bg)
   --enter-btn-bg-hover: var(--btn-regular-bg-hover)
   --enter-btn-bg-active: var(--btn-regular-bg-active)
 
-  --deep-text: oklch(0.25 0.02 var(--hue))
+  --deep-text: rgba(52, 52, 50, 1)
 
-  --title-active: oklch(0.6 0.1 var(--hue))
+  --title-active: rgba(94, 132, 176, 0.85)
 
-  --line-divider: black(0.05) white(0.05)
+  --line-divider: rgba(0, 0, 0, 0.05) rgba(255, 255, 255, 0.05)
+  --line-color: rgba(0, 0, 0, 0.08) rgba(255, 255, 255, 0.08)
+  --meta-divider: rgba(0, 0, 0, 0.15) rgba(255, 255, 255, 0.15)
 
-  --line-color: black(0.1) white(0.1)
-  --meta-divider: black(0.2) white(0.2)
+  --inline-code-bg: rgba(244, 243, 239, 1) rgba(48, 48, 46, 1)
+  --inline-code-color: rgba(70, 120, 175, 1)
+  --selection-bg: rgba(190, 210, 230, 0.5) rgba(52, 72, 102, 0.5)
+  --codeblock-selection: rgba(52, 72, 102, 0.5)
+  --codeblock-bg: rgba(38, 38, 36, 1) rgba(42, 42, 40, 1)
 
-  --inline-code-bg: oklch(0.95 0.01 var(--hue)) oklch(0.30 0.02 var(--hue))
-  --inline-code-color: oklch(0.45 0.08 var(--hue))
-  --selection-bg: oklch(0.90 0.05 var(--hue)) oklch(0.40 0.08 var(--hue))
-  --codeblock-selection: oklch(0.40 0.08 var(--hue))
-  --codeblock-bg: oklch(0.2 0.01 var(--hue)) oklch(0.24 0 var(--hue))
+  --license-block-bg: rgba(0, 0, 0, 0.03) var(--codeblock-bg)
 
-  --license-block-bg: black(0.03) var(--codeblock-bg)
+  --link-underline: rgba(190, 210, 230, 0.4) rgba(52, 72, 102, 0.4)
+  --link-hover: rgba(215, 225, 245, 0.7) rgba(70, 90, 120, 0.7)
+  --link-active: rgba(195, 215, 235, 0.9) rgba(90, 110, 150, 0.9)
 
-  --link-underline: oklch(0.90 0.04 var(--hue)) oklch(0.32 0.05 var(--hue))
-  --link-hover: oklch(0.92 0.02 var(--hue)) oklch(0.35 0.05 var(--hue))
-  --link-active: oklch(0.90 0.05 var(--hue)) oklch(0.35 0.07 var(--hue))
+  --float-panel-bg: rgba(255, 255, 250, 0.96) rgba(40, 40, 38, 0.96)
 
-  --float-panel-bg: white oklch(0.19 0.015 var(--hue))
+  --scrollbar-bg-light: rgba(0, 0, 0, 0.35)
+  --scrollbar-bg-hover-light: rgba(0, 0, 0, 0.45)
+  --scrollbar-bg-active-light: rgba(0, 0, 0, 0.55)
 
-  --scrollbar-bg-light: black(0.4)
-  --scrollbar-bg-hover-light: black(0.5)
-  --scrollbar-bg-active-light: black(0.6)
-
-  --scrollbar-bg-dark: white(0.4)
-  --scrollbar-bg-hover-dark: white(0.5)
-  --scrollbar-bg-active-dark: white(0.6)
+  --scrollbar-bg-dark: rgba(255, 255, 255, 0.35)
+  --scrollbar-bg-hover-dark: rgba(255, 255, 255, 0.45)
+  --scrollbar-bg-active-dark: rgba(255, 255, 255, 0.55)
 
   --scrollbar-bg: var(--scrollbar-bg-light) var(--scrollbar-bg-dark)
   --scrollbar-bg-hover: var(--scrollbar-bg-hover-light) var(--scrollbar-bg-hover-dark)
   --scrollbar-bg-active: var(--scrollbar-bg-active-light) var(--scrollbar-bg-active-dark)
 
-  --color-selection-bar: rainbow-light rainbow-dark
+  --color-selection-bar: rgba(172, 142, 104, 0.5) rgba(142, 122, 94, 0.5)
 
   --display-light-icon: 1 0
   --display-dark-icon: 0 1
 
-  --admonitions-color-tip: oklch(0.65 0.10 180) oklch(0.68 0.10 180)
-  --admonitions-color-note: oklch(0.65 0.10 240) oklch(0.68 0.10 240)
-  --admonitions-color-important: oklch(0.65 0.10 300) oklch(0.68 0.10 300)
-  --admonitions-color-warning: oklch(0.65 0.10 60) oklch(0.68 0.10 60)
-  --admonitions-color-caution: oklch(0.55 0.15 40) oklch(0.60 0.15 40)
+  --admonitions-color-tip: rgba(142, 192, 162, 1) rgba(162, 212, 182, 1)        // 竹青
+  --admonitions-color-note: rgba(122, 162, 192, 1) rgba(142, 182, 202, 1)       // 靛蓝
+  --admonitions-color-important: rgba(162, 142, 192, 1) rgba(182, 162, 212, 1)  // 藕紫
+  --admonitions-color-warning: rgba(202, 162, 92, 1) rgba(222, 182, 112, 1)     // 土黄
+  --admonitions-color-caution: rgba(212, 122, 92, 0.85) rgba(232, 142, 112, 0.85) // 胭脂浅橘
 
-  --toc-badge-bg: oklch(0.9 0.045 var(--hue)) var(--btn-regular-bg)
-  --toc-btn-hover: oklch(0.92 0.015 var(--hue)) oklch(0.22 0.02 var(--hue))
-  --toc-btn-active: oklch(0.90 0.015 var(--hue)) oklch(0.25 0.02 var(--hue))
+  --toc-badge-bg: rgba(242, 244, 250, 1) var(--btn-regular-bg)
+  --toc-btn-hover: rgba(248, 250, 252, 1) rgba(60, 60, 58, 1)
+  --toc-btn-active: rgba(240, 243, 248, 1) rgba(70, 70, 68, 1)
   --toc-width: calc((100vw - var(--page-width)) / 2 - 1rem)
-  --toc-item-active: oklch(0.70 0.13 var(--hue)) oklch(0.35 0.07 var(--hue))
+  --toc-item-active: rgba(104, 132, 164, 0.75) rgba(80, 110, 140, 0.75)
 })
