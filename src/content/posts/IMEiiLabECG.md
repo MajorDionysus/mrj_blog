@@ -1,5 +1,5 @@
 ---
-title: 25Prix不眠之夜
+title: ECG signal acquisition and processing
 published: 2024-10-12
 description: 2
 
