@@ -1,7 +1,7 @@
 ---
 title: ECG signal acquisition and processing
 published: 2024-10-12
-description: 2
+description: dasd
 
 image: https://img.mrj.today/images/blogs/2025GrandPrix/champion.png
 tags:
