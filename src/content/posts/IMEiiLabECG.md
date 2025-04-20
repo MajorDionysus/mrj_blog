@@ -1,8 +1,7 @@
 ---
-title: ECG signal acquisition and processing
+title: 心电（ECG）信号采集、处理与可视化
 published: 2024-10-12
-description: dasd
-
+description: 基于MATLAB和Django的心电信号采集与分析系统，包含实时采集、信号处理、心率分析和远程数据共享功能，支持临床诊断与远程医疗应用。
 image: https://img.mrj.today/images/blogs/2024ECGLab/cover.jpg
 tags:
   - Healthcare
