@@ -65,6 +65,7 @@ draft: false
 #### EMG干扰实验
 肌电信号（EMG）引入高频噪声（>30Hz），掩盖ECG细节（下图）。尽管HeartPy仍能解析心率，但信号质量显著下降，需结合带通滤波与小波去噪提升鲁棒性。
 ![图5](https://img.mrj.today/images/blogs/2024ECGLab/WithEMG.png)
+
 ---
 
 ### 感想
